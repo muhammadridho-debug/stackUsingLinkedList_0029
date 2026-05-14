@@ -38,6 +38,9 @@ public:
         {
             cout << "Stack is empty." << endl;
         }
+
+        Node *temp = top;
+        top = top->next;
     }
     
     bool isEmpty() {
