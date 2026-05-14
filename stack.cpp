@@ -62,11 +62,27 @@ public:
         }
     }
     
-    bool isEmpty() {
+    bool isEmpty() 
+    {
         return top == NULL;
     }
 };
 
-int main() {
+int main() 
+{
+    stack stack;
+
+    int choice = 0;
+    int value;
+
+    while (choice != 5)
+    {
+        cout << "1. push\n";
+        cout << "2. pop\n";
+        cout << "3. peek\n";
+        cout << "4. exit\n";
+        cout << "Enter your choice: ";
+        cin >> choice;
+    }
     return 0;
 }
