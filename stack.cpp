@@ -21,6 +21,10 @@ public:
     {
         top = NULL;
     }
+    
+    bool isEmpty() {
+        return top == NULL;
+    }
 };
 
 int main() {
