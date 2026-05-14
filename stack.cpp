@@ -11,6 +11,7 @@ public:
     }
 };
 
+// class stack
 class stack 
 {
 private:
@@ -20,6 +21,10 @@ public:
     stack() 
     {
         top = NULL;
+    }
+    int push(int value) 
+    {
+        return value;
     }
     
     bool isEmpty() {
